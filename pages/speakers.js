@@ -4,7 +4,7 @@ import SpeakerSearchBar from "../src/components/SpeakerSearchBar/SpeakerSearchBa
 import Speakers from "../src/components/Speakers/Speakers";
 import Footer from "../src/components/Footer/Footer";
 
-function Page() {
+export default function Page() {
   return (
     <div>
       <Header />
@@ -15,5 +15,3 @@ function Page() {
     </div>
   );
 }
-
-export default Page;
